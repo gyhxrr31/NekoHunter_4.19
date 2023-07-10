@@ -17,6 +17,7 @@
 &firmware {
 	android {
 		/delete-node/ vbmeta;
+
 		fstab {
 			vendor {
 				mnt_flags = "ro,barrier=1";
@@ -32,5 +33,6 @@
 				status = "ok";
 			};
 		};
+
 	};
 };
